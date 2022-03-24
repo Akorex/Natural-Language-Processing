@@ -3,7 +3,7 @@ Repository contains different tasks on sentimental analysis with Tensorflow and 
 
 
 Amazon Review Sentiment Analysis
-This project was based on the [Amazon Reviews for Sentiment Analysis] dataset on Kaggle. (https://www.kaggle.com/datasets/bittlingmayer/amazonreviews)
+This project was based on the [Amazon Reviews for Sentiment Analysis](https://www.kaggle.com/datasets/bittlingmayer/amazonreviews) dataset on Kaggle.
 Several models were built from scratch in order for this achieving 91% accuracy on the test dataset. 
 
 1. Tokenization was done with the keras Tokenizer and the models were trained on 400,000 text samples from the dataset.
