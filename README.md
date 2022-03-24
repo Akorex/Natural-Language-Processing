@@ -2,7 +2,7 @@
 Repository contains different tasks on sentimental analysis with Tensorflow and Pytorch
 
 
-Amazon Review Sentiment Analysis
+1. Amazon Review Sentiment Analysis
 This project was based on the [Amazon Reviews for Sentiment Analysis](https://www.kaggle.com/datasets/bittlingmayer/amazonreviews) dataset on Kaggle.
 Several models were built from scratch in order for this achieving 91% accuracy on the test dataset. 
 
