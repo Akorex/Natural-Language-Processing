@@ -1,9 +1,9 @@
 # Sentiment-Analysis
-Repository contains different tasks on sentimental analysis with Tensorflow and Pytorch
+This repository contains different tasks on sentimental analysis on several datasets from Kaggle and other sources using different approaches on Natural Language Processing.
 
-1. IMDb Review Classification
 
-2. Amazon Review Sentiment Analysis:
+
+## Amazon Review Sentiment Analysis:
 
 This project was based on the [Amazon Reviews for Sentiment Analysis](https://www.kaggle.com/datasets/bittlingmayer/amazonreviews) dataset on Kaggle.
 Several models were built from scratch in order for this achieving 91% accuracy on the test dataset. 
@@ -16,3 +16,5 @@ Several models were built from scratch in order for this achieving 91% accuracy 
 In the second notebook 'amazon review sentiment analysis with transformers', a transformer block was built from scratch using keras on the dataset. Decent performance was reached (~89% accuracy on the test) but not as good as the previous models built. 
 
 A final approach on the project would be to finetune BERT (Bidirectional Encoder Representations from Transformers) on the dataset using HuggingFace ecosystem and evaluating the performance to compare with the models built from scratch.
+
+## IMDb Review Classification
