@@ -1,5 +1,4 @@
-# Sentiment-Analysis
-This repository contains different tasks on sentimental analysis on several datasets from Kaggle and other sources using different approaches on Natural Language Processing.
+This repository contains different tasks on Natural Language Processing like Sentiment Analysis, Question Answering and Named-entity recognition on several datasets from Kaggle and other sources
 
 
 
