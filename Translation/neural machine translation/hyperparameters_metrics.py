@@ -1,4 +1,6 @@
 import tensorflow as tf
+
+
 # hyperparameters
 d_model = 128
 dff = 512
