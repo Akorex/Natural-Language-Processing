@@ -1,4 +1,4 @@
-from encoder import Encoder
+from transformer.encoder import Encoder
 import tensorflow as tf
 
 sample_encoder = Encoder(num_layers=2, d_model=512, num_heads=8, 
