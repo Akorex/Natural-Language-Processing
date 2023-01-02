@@ -35,7 +35,3 @@ class EncoderLayer(tf.keras.layers.Layer):
         
         return out2
 
-if __name__ == '__main__':
-    sample_encoder_layer = EncoderLayer(d_model=512, num_heads=8, dff=2048)
-    sample_encoder_layer_output = sample_encoder_layer(tf.random.uniform((64, 43, 512)), False, mask=None)
-    print(sample_encoder_layer_output.shape)

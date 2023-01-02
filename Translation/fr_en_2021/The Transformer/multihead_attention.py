@@ -57,11 +57,3 @@ class MultiHeadAttention(tf.keras.layers.Layer):
         
         return output, attention_weights
 
-
-if __name__ == '__main__':
-    # let's check if this works as intended
-    temp_multihead = MultiHeadAttention(512, 8)
-    y = tf.random.uniform((1, 60, 512))
-    out, attn = temp_multihead(y, k=y, q=y, mask=None)
-    
-    print(out.shape, attn.shape)

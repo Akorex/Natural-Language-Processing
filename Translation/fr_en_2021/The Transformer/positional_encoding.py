@@ -25,7 +25,3 @@ def positional_encoding(position, d_model):
     return tf.cast(pos_encoding, dtype=tf.float32)
 
 
-if __name__ == '__main__':
-    # check if the code works as intended
-    pos_encoding = positional_encoding(50, 512)
-    print(pos_encoding)
