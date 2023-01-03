@@ -1,4 +1,5 @@
 import tensorflow as tf
+from tokenizers import tokenizer_en, tokenizer_fr
 
 
 # hyperparameters
@@ -8,8 +9,13 @@ num_layers = 4
 num_heads = 8
 dropout_rate = 0.1
 
-#input_vocab_size = len(tokenizer_en.word_index) + 2
-#target_vocab_size = len(tokenizer_fr.word_index) + 2
+input_vocab_size = len(tokenizer_en.word_index) + 2
+target_vocab_size = len(tokenizer_fr.word_index) + 2
+
+pe_input = input_vocab_size
+pe_target = target_vocab_size
+
+maxlen = 25 # max tokens for prediction
 
 # metrics and loss
 
