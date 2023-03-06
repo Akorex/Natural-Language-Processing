@@ -1,9 +1,9 @@
 import numpy as np
 import tensorflow as tf
-from multihead_attention import MultiHeadAttention
-from ffn import pointwise_feed_forward_network
-from positional_encoding import positional_encoding
-from encoder_layer import EncoderLayer
+from transformer.multihead_attention import MultiHeadAttention
+from transformer.ffn import pointwise_feed_forward_network
+from transformer.positional_encoding import positional_encoding
+from transformer.encoder_layer import EncoderLayer
 
 class Encoder(tf.keras.layers.Layer):
     def __init__(self, num_layers, d_model, num_heads, dff, input_vocab_size, maximum_position_encoding, rate=0.1):

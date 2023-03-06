@@ -1,5 +1,5 @@
 # ensures attention works as intended
-from attention import scaled_dot_product_attention, print_out
+from transformer.attention import print_out
 import tensorflow as tf
 
 temp_k = tf.constant([[10, 0, 0],

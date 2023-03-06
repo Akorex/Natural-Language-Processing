@@ -1,6 +1,6 @@
 # ensures multihead_attention works as intended
 
-from multihead_attention import MultiHeadAttention
+from transformer.multihead_attention import MultiHeadAttention
 import tensorflow as tf
 
 

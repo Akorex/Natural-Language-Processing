@@ -1,5 +1,5 @@
 # ensures the positional encoding works as intended
-from positional_encoding import positional_encoding
+from transformer.positional_encoding import positional_encoding
 import matplotlib.pyplot as plt
 
 
