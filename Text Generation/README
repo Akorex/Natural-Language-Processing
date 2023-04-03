@@ -1,1 +1,13 @@
-Contains files, notebooks and source code pertaining to the text-generation task
+This directory contains files, and notebooks pertaining to the text-generation task. 
+
+Aims to provide a low-level understanding of the text generation task for transformers. Transformers are a ubiquitous deep learning architecture based on the attention mechanism, and are mainly used for sequence-to-sequence tasks such as translation and text generation. We can also use the transformer architecture for sentiment analysis tasks, but this would require using only the encoder, as in the case of BERT. This [notebook](https://github.com/Akorex/Natural-Language-Processing/blob/main/Translation/neural%20machine%20translation/notebook/translation-with-ml-transformers.ipynb) is very helpful for a deep dive into the low-level understanding of the transformer architecture, its implementation, and its use for the translation task.
+
+
+Here's the objective for the task at hand:
+
+1.  Use the HuggingFace Transformers library for a high-level understanding of what the task require.
+2. Finetune a HuggingFace Transformer model (like GPT-2) for the generation of some task
+3. Build a model from scratch using the HuggingFace Transformers and Datasets library
+4. Use the Lower-level TensorFlow API for building a model which can be used for the task
+5. Use the KerasNLP library for easy modular code for the task above
+6. Deploy the model into the ML Model Playground Repository
