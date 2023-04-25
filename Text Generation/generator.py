@@ -23,6 +23,6 @@ def generate_text(text):
     """
     pipe = pipeline("text-generation", model= model, tokenizer=tokenizer, device=0)
 
-    output = pipe(text, return_sequences = 1)[0]['generated_text']
+    output = pipe(text)[0]['generated_text']
 
     return output
