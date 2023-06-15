@@ -1,6 +1,6 @@
 This directory contains files, and notebooks pertaining to the text-generation task. 
 
-Aims to provide a low-level understanding of the text generation task for transformers. Transformers are a ubiquitous deep learning architecture based on the attention mechanism, and are mainly used for sequence-to-sequence tasks such as translation and text generation. We can also use the transformer architecture for sentiment analysis tasks, but this would require using only the encoder, as in the case of BERT.
+Aims to provide a low-level understanding of the text generation task with transformers. Transformers are a ubiquitous deep learning architecture based on the attention mechanism, and are mainly used for sequence-to-sequence tasks such as translation and text generation. We can also use the transformer architecture for sentiment analysis tasks, but this would require using only the encoder, as in the case of BERT.
 A very helpful resource for a deep dive into the low-level understanding of the transformer architecture, its implementation, and its use for the translation task is provided in the Translation subdirectory.
 
 
