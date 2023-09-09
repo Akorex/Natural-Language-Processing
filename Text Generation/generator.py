@@ -1,4 +1,6 @@
-"""This is the python file accompanying the intro notebook on """
+"""This is the python file accompanying the notebook on text generation from 
+scratch with HuggingFace
+"""
 
 from transformers import AutoTokenizer, TFGPT2LMHeadModel, pipeline, AutoConfig
 
