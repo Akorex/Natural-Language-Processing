@@ -21,7 +21,7 @@ def scaled_dot_product_attention(query, key, value, mask = None):
     if mask is not None:
         scaled_attention_logits = scaled_attention_logits.masked_fill(mask == 0, -1e9)
 
-    attention_weights = nn.softmax(scaled_attention_logits, dim = -1)
+    attention_weights = nn.Softmax(scaled_attention_logits, dim = -1)
     outputs = torch.matmul(attention_weights, value)
 
     return outputs, attention_weights
