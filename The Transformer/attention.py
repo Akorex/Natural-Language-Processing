@@ -13,7 +13,7 @@ def scaled_dot_product_attention(query, key, value, mask = None):
 
     dk = key.size()[-1]
     dk = torch.tensor(dk)
-    key_transposed = torch.transpose(key, -2, -1)
+    key_transposed = key.transpose(-2, -1)
     
     matmul_qk = torch.matmul(query, key_transposed)
     scaled_attention_logits = matmul_qk/torch.sqrt(dk)
@@ -21,7 +21,7 @@ def scaled_dot_product_attention(query, key, value, mask = None):
     if mask is not None:
         scaled_attention_logits = scaled_attention_logits.masked_fill(mask == 0, -1e9)
 
-    attention_weights = nn.Softmax(scaled_attention_logits, dim = -1)
+    attention_weights = nn.softmax(scaled_attention_logits, dim = -1)
     outputs = torch.matmul(attention_weights, value)
 
     return outputs, attention_weights
