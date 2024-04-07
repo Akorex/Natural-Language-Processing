@@ -1,5 +1,5 @@
-from transformer.decoder_layer import DecoderLayer
-from transformer.encoder_layer_test import sample_encoder_layer_output
+from decoder_layer import DecoderLayer
+from encoder_layer_test import sample_encoder_layer_output
 import tensorflow as tf
 
 # let's test this out

@@ -1,7 +1,7 @@
 import numpy as np
 import tensorflow as tf
-from transformer.multihead_attention import MultiHeadAttention
-from transformer.ffn import pointwise_feed_forward_network
+from multihead_attention import MultiHeadAttention
+from ffn import pointwise_feed_forward_network
 
 
 class EncoderLayer(tf.keras.layers.Layer):

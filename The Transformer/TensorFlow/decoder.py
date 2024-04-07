@@ -1,9 +1,9 @@
 import numpy as np
 import tensorflow as tf
-from transformer.multihead_attention import MultiHeadAttention
-from transformer.ffn import pointwise_feed_forward_network
-from transformer.positional_encoding import positional_encoding
-from transformer.decoder_layer import DecoderLayer
+from multihead_attention import MultiHeadAttention
+from ffn import pointwise_feed_forward_network
+from positional_encoding import positional_encoding
+from decoder_layer import DecoderLayer
 
 
 class Decoder(tf.keras.layers.Layer):

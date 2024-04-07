@@ -1,5 +1,5 @@
 # ensures encoder_layer.py works as intended
-from transformer.encoder_layer import EncoderLayer
+from encoder_layer import EncoderLayer
 import tensorflow as tf
 
 

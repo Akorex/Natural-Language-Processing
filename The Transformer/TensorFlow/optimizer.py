@@ -1,6 +1,6 @@
 import numpy as np
 import tensorflow as tf
-from transformer.hyperparameters_metrics import d_model
+from hyperparameters_metrics import d_model
 import matplotlib.pyplot as plt
 
 # learning rate
